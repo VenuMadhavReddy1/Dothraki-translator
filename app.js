@@ -23,8 +23,8 @@ function minion(){
     var translationType = 'yoda';
     var bgObj = document.getElementById('wrapper');
     bgObj.style.backgroundImage = "url('images/yoda.jpg')";
-    type3.style.backgroundColor = '#64C9CF';
     type2.style.backgroundColor = '#DF711B';
+    type3.style.backgroundColor = '#64C9CF';
     type1.style.backgroundColor = '#64C9CF';
     serverURL = "https://api.funtranslations.com/translate/"+translationType+".json";
   }
@@ -35,7 +35,7 @@ function minion(){
     var translationType = 'dothraki';
     var bgObj = document.getElementById('wrapper');
     bgObj.style.backgroundImage = "url('images/dothraki.jpg')";
-    type3.style.backgroundColor = '#64C9CF';
+    type3.style.backgroundColor = '#DF711B';
     type2.style.backgroundColor = '#64C9CF';
     type1.style.backgroundColor = '#64C9CF';
     serverURL = "https://api.funtranslations.com/translate/"+translationType+".json";
