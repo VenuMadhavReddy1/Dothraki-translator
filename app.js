@@ -34,7 +34,7 @@ function minion(){
   function dothraki(){            
     var translationType = 'dothraki';
     var bgObj = document.getElementById('wrapper');
-    bgObj.style.backgroundImage = "url('images/dothraki.jpg')";
+    bgObj.style.backgroundImage = "url('images/dothraki.png')";
     type3.style.backgroundColor = '#DF711B';
     type2.style.backgroundColor = '#64C9CF';
     type1.style.backgroundColor = '#64C9CF';
