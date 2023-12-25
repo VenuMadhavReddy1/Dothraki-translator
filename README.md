@@ -5,7 +5,7 @@ This is a fun translator app. It uses fun translation's api to translate your En
 Built with `HTML`, `CSS` and `Vanilla JS`.
 
 >### Where do I can have it?
-Go to https://app.netlify.com/sites/fun-translator-site/
+Go to https://fun-translator-site.netlify.app
 
 and have a fun.
 
