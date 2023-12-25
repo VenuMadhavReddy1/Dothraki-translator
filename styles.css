@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #FDE49C;
+    color: white;
+
+}
+.head{
+    text-align: center;
+    color: #DF711B;
+    margin: 0%;
+    padding: 10px;
+}
+.wrapper{
+    margin-top: 0.5%;
+    border: solid 3px #DF711B;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    background-color: #64C9CF;
+    background-image: url('images/minion.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    color: white;
+
+}
+textarea{
+    border: solid 4px #DF711B;
+    border-radius: 5px;
+    background-color: #D3B485;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    opacity: 85%;
+}
+.original{
+    margin: 0.5%;
+}
+.translated{
+    margin: 0.5%;
+}
+#translate{
+    color: white;
+    background-color:#DF711B;
+    padding: 8px;
+    cursor: pointer;
+    border: solid 3px #DF711B;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.type{
+    color: white;
+    background-color:#64C9CF;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 2px #DF711B;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+@media (max-width:420px){
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        text-align: center;
+        background-color: #FDE49C;
+        color: white;
+    
+    }
+    .head{
+        text-align: center;
+        color: #DF711B;
+        margin: 0%;
+        padding: 5px;
+    }
+    .wrapper{
+        margin-top: 0.5%;
+        border: solid 3px #DF711B;
+        border-radius: 8px;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 10px;
+        background-color: #64C9CF;
+        background-image: url('images/minion.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        color: white;
+    
+    }
+    textarea{
+        border: solid 4px #DF711B;
+        border-radius: 5px;
+        background-color: #D3B485;
+        width: 90%;
+        color: white;
+        font-size: 20px;
+        opacity: 85%;
+    }
+    .original{
+        margin: 0.5%;
+    }
+    .translated{
+        margin: 0.5%;
+    }
+    #translate{
+        color: white;
+        background-color:#DF711B;
+        padding: 8px;
+        cursor: pointer;
+        border: solid 3px #DF711B;
+        border-radius: 5px;
+        font-size: 16px;
+    
+    }
+    .type{
+        color: white;
+        background-color:#64C9CF;
+        padding: 10px;
+        cursor: pointer;
+        border: solid 2px #DF711B;
+        border-radius: 8px;
+        font-size: 16px;
+        margin: 0.8%;
+    }
+    
+}
